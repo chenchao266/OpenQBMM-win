@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="quadratureMethods\fieldMomentInversion\basicFieldMomentInversion.C" />
+    <ClCompile Include="quadratureMethods\fieldMomentInversion\basicVelocityFieldMomentInversion.C" />
+    <ClCompile Include="quadratureMethods\fieldMomentInversion\extendedFieldMomentInversion.C" />
+    <ClCompile Include="quadratureMethods\fieldMomentInversion\fieldMomentInversion.C" />
+    <ClCompile Include="quadratureMethods\fieldMomentInversion\newFieldMomentInversion.C" />
+    <ClCompile Include="quadratureMethods\hermiteQuadrature\hermiteQuadrature.C" />
+    <ClCompile Include="quadratureMethods\mixingModels\FokkerPlanck.C" />
+    <ClCompile Include="quadratureMethods\mixingModels\IEM.C" />
+    <ClCompile Include="quadratureMethods\mixingModels\mixingDiffusionModel.C" />
+    <ClCompile Include="quadratureMethods\mixingModels\mixingKernel.C" />
+    <ClCompile Include="quadratureMethods\mixingModels\mixingModel.C" />
+    <ClCompile Include="quadratureMethods\mixingModels\molecularDiffusion.C" />
+    <ClCompile Include="quadratureMethods\mixingModels\newMixingDiffusionModel.C" />
+    <ClCompile Include="quadratureMethods\mixingModels\newMixingKernel.C" />
+    <ClCompile Include="quadratureMethods\mixingModels\newMixingModel.C" />
+    <ClCompile Include="quadratureMethods\mixingModels\noDiffusion.C" />
+    <ClCompile Include="quadratureMethods\mixingModels\noMixing.C" />
+    <ClCompile Include="quadratureMethods\mixingModels\noMixingKernel.C" />
+    <ClCompile Include="quadratureMethods\mixingModels\turbulentDiffusion.C" />
+    <ClCompile Include="quadratureMethods\mixingModels\turbulentMixing.C" />
+    <ClCompile Include="quadratureMethods\momentAdvection\calculatedFvQuadraturePatch.C" />
+    <ClCompile Include="quadratureMethods\momentAdvection\firstOrderKineticUnivariateAdvection.C" />
+    <ClCompile Include="quadratureMethods\momentAdvection\firstOrderKineticVelocityAdvection.C" />
+    <ClCompile Include="quadratureMethods\momentAdvection\fixedTemperatureFvQuadraturePatch.C" />
+    <ClCompile Include="quadratureMethods\momentAdvection\fvQuadraturePatch.C" />
+    <ClCompile Include="quadratureMethods\momentAdvection\newFvQuadraturePatch.C" />
+    <ClCompile Include="quadratureMethods\momentAdvection\newUnivariateMomentAdvection.C" />
+    <ClCompile Include="quadratureMethods\momentAdvection\newVelocityMomentAdvection.C" />
+    <ClCompile Include="quadratureMethods\momentAdvection\noFluxFvQuadraturePatch.C" />
+    <ClCompile Include="quadratureMethods\momentAdvection\noUnivariateAdvection.C" />
+    <ClCompile Include="quadratureMethods\momentAdvection\noVelocityAdvection.C" />
+    <ClCompile Include="quadratureMethods\momentAdvection\outflowFvQuadraturePatch.C" />
+    <ClCompile Include="quadratureMethods\momentAdvection\reflectiveFvQuadraturePatch.C" />
+    <ClCompile Include="quadratureMethods\momentAdvection\reflectiveMovingWallFvQuadraturePatch.C" />
+    <ClCompile Include="quadratureMethods\momentAdvection\reflectiveRotatingWallFvQuadraturePatch.C" />
+    <ClCompile Include="quadratureMethods\momentAdvection\symmetryFvQuadraturePatch.C" />
+    <ClCompile Include="quadratureMethods\momentAdvection\univariateMomentAdvection.C" />
+    <ClCompile Include="quadratureMethods\momentAdvection\velocityMomentAdvection.C" />
+    <ClCompile Include="quadratureMethods\momentAdvection\VikasQuasiSecondOrderVelocityAdvection.C" />
+    <ClCompile Include="quadratureMethods\momentAdvection\zetaUnivariateAdvection.C" />
+    <ClCompile Include="quadratureMethods\momentInversion\betaEQMOM.C" />
+    <ClCompile Include="quadratureMethods\momentInversion\CHyQMOMMomentInversion.C" />
+    <ClCompile Include="quadratureMethods\momentInversion\CHyQMOMPlusMomentInversion.C" />
+    <ClCompile Include="quadratureMethods\momentInversion\conditionalMomentInversion.C" />
+    <ClCompile Include="quadratureMethods\momentInversion\extendedMomentInversion.C" />
+    <ClCompile Include="quadratureMethods\momentInversion\gammaEQMOM.C" />
+    <ClCompile Include="quadratureMethods\momentInversion\gaussLobattoMomentInversion.C" />
+    <ClCompile Include="quadratureMethods\momentInversion\gaussMomentInversion.C" />
+    <ClCompile Include="quadratureMethods\momentInversion\gaussRadauMomentInversion.C" />
+    <ClCompile Include="quadratureMethods\momentInversion\hyperbolicMomentInversion.C" />
+    <ClCompile Include="quadratureMethods\momentInversion\lognormalEQMOM.C" />
+    <ClCompile Include="quadratureMethods\momentInversion\monoKineticMomentInversion.C" />
+    <ClCompile Include="quadratureMethods\momentInversion\multivariateMomentInversion.C" />
+    <ClCompile Include="quadratureMethods\momentInversion\newExtendedMomentInversion.C" />
+    <ClCompile Include="quadratureMethods\momentInversion\newMultivariateMomentInversion.C" />
+    <ClCompile Include="quadratureMethods\momentInversion\newUnivariateMomentInversion.C" />
+    <ClCompile Include="quadratureMethods\momentInversion\sizeCHyQMOMMomentInversions.C" />
+    <ClCompile Include="quadratureMethods\momentInversion\TensorProductMomentInversion.C" />
+    <ClCompile Include="quadratureMethods\momentInversion\univariateMomentInversion.C" />
+    <ClCompile Include="quadratureMethods\momentSets\momentSet.C" />
+    <ClCompile Include="quadratureMethods\momentSets\multivariateMomentSet.C" />
+    <ClCompile Include="quadratureMethods\momentSets\univariateMomentSet.C" />
+    <ClCompile Include="quadratureMethods\PDFTransportModels\PDFTransportModel.C" />
+    <ClCompile Include="quadratureMethods\PDFTransportModels\univariatePDFTransportModel.C" />
+    <ClCompile Include="quadratureMethods\PDFTransportModels\velocityPDFTransportModel.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\aggregationKernel.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\AyaziShamlou.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\BGKCollision.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\BoltzmannCollision.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\breakupKernel.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\Brownian.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\coalescenceEfficiencyKernel.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\coalescenceFrequencyKernel.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\coalescenceKernel.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\collisionKernel.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\constantAggregation.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\constantBreakup.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\constantEfficiency.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\constantGrowth.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\daughterDistribution.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\differentialForceAggregation.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\diffusionModel.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\environmentMixingModel.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\equilibriumMomentFunctions.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\erosion.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\esBGKCollision.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\exponentialBreakup.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\fullFragmentation.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\growthModel.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\hydrodynamicAggregation.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\ICoefficientFunctions.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\IEM2.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\IxCoefficientFunctions.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\IyCoefficientFunctions.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\IzCoefficientFunctions.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\linearEvaporation.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\LuoFrequency.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\LuoSvendsen.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\Miller.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\mixingPopulationBalance.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\molecularDiffusion2.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\newAggregationKernel.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\newBreakupKernel.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\newCoalescenceEfficiencyKernel.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\newCoalescenceFrequencyKernel.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\newCollisionKernel.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\newDaughterDistribution.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\newDiffusionModel.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\newEnvironmentMixingModel.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\newGrowthModel.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\newNucleationModel.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\newPopulationBalanceModel.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\noCollision.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\noDiffusion2.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\nonLinearEvaporation.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\noNucleation.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\noPopulationBalance.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\nucleationModel.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\oneQuarterMassRatio.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\populationBalanceModel.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\powerLawBreakup.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\shearRateFrequency.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\sizeVelocityPopulationBalance.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\sumAggregation.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\symmetricFragmentation.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\turbulentBrownian.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\turbulentDiffusion2.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\uniform.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\univariatePopulationBalance.C" />
+    <ClCompile Include="quadratureMethods\populationBalanceModels\velocityPopulationBalance.C" />
+    <ClCompile Include="quadratureMethods\quadratureApproximations\monoKineticQuadratureApproximation.C" />
+    <ClCompile Include="quadratureMethods\quadratureNode\surfaceVelocityNode.C" />
+    <ClCompile Include="quadratureMethods\quadratureNode\volVelocityNode.C" />
+    <ClCompile Include="Vandermonde\Vandermonde.C" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{8A451363-4878-4709-BCFC-18F303E3774F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;OPENQBMM_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;OPENQBMM_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;..\OpenFOAM-win\OpenFOAM\algorithms;..\OpenFOAM-win\OpenFOAM\containers;..\OpenFOAM-win\OpenFOAM\db;..\OpenFOAM-win\OpenFOAM\dimensionedTypes;..\OpenFOAM-win\OpenFOAM\dimensionSet;..\OpenFOAM-win\OpenFOAM\fields;..\OpenFOAM-win\OpenFOAM\global;..\OpenFOAM-win\OpenFOAM\graph;..\OpenFOAM-win\OpenFOAM\include;..\OpenFOAM-win\OpenFOAM\interpolations;..\OpenFOAM-win\OpenFOAM\matrices;..\OpenFOAM-win\OpenFOAM\memory;..\OpenFOAM-win\OpenFOAM\meshes;..\OpenFOAM-win\OpenFOAM\primitives;..\OpenFOAM-win\OSspecific;..\OpenFOAM-win\finiteVolume;..\OpenFOAM-win\meshTools;..\OpenFOAM-win\dynamicMesh;..\OpenFOAM-win\fileFormats;..\OpenFOAM-win\thermophysicalModels;..\OpenFOAM-win\transportModels;..\OpenFOAM-win\TurbulenceModels;.\mappedList;.\mappedPtrList;.\Vandermonde;.\quadratureMethods;.\quadratureMethods\fieldMomentInversion;.\quadratureMethods\hermiteQuadrature;.\quadratureMethods\mixingModels;.\quadratureMethods\momentAdvection;.\quadratureMethods\momentInversion;.\quadratureMethods\moments;.\quadratureMethods\momentSets;.\quadratureMethods\PDFTransportModels;.\quadratureMethods\populationBalanceModels;.\quadratureMethods\quadratureApproximations;.\quadratureMethods\quadratureNode;.\quadratureMethods\realizableOdeSolver;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <PreprocessorDefinitions>WM_LABEL_SIZE=64;WM_DP;NoRepository;WIN32;WIN64;_WINDOWS;NOMINMAX;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,462 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="mappedList">
+      <UniqueIdentifier>{18442cd4-020f-40cf-b55e-59f5504ceaa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mappedPtrList">
+      <UniqueIdentifier>{c8ee4472-a6f6-4794-b83b-d27646edb0ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="quadratureMethods">
+      <UniqueIdentifier>{9975af79-78d2-46e4-b82c-1932c143b383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="quadratureMethods\fieldMomentInversion">
+      <UniqueIdentifier>{8a872e10-9edb-4077-9118-38732610098a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="quadratureMethods\populationBalanceModels">
+      <UniqueIdentifier>{577a4408-9285-45ff-92e6-730cd2c7cbef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="quadratureMethods\hermiteQuadrature">
+      <UniqueIdentifier>{57a33f5d-bdb0-4fbc-a734-97782666410f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="quadratureMethods\mixingModels">
+      <UniqueIdentifier>{62736d42-3982-4d6b-bc73-e722a7038f3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="quadratureMethods\momentAdvection">
+      <UniqueIdentifier>{b162b7b7-6a92-4d10-a47c-60fc44bd6898}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="quadratureMethods\momentInversion">
+      <UniqueIdentifier>{e3e8bea6-d33a-48f9-a1c9-b67a0d2ac523}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="quadratureMethods\moments">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="quadratureMethods\momentSets">
+      <UniqueIdentifier>{d6ce9be7-0bb9-4d57-bf04-06b6076979fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="quadratureMethods\PDFTransportModels">
+      <UniqueIdentifier>{18dcfe4d-2f31-4ce6-b7ab-fb704be980c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="quadratureMethods\quadratureApproximations">
+      <UniqueIdentifier>{56401dd0-5d40-4db3-868e-b5c5c5b8298a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="quadratureMethods\quadratureNode">
+      <UniqueIdentifier>{eb58fd94-4542-4ce9-a2f5-b014d407e723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="quadratureMethods\realizableOdeSolver">
+      <UniqueIdentifier>{74771174-11dc-4b29-a782-3ce6bc347082}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vandermonde">
+      <UniqueIdentifier>{95333b99-0749-489d-a4df-61bdf76fd95b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="quadratureMethods\fieldMomentInversion\basicFieldMomentInversion.C">
+      <Filter>quadratureMethods\fieldMomentInversion</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\fieldMomentInversion\basicVelocityFieldMomentInversion.C">
+      <Filter>quadratureMethods\fieldMomentInversion</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\fieldMomentInversion\extendedFieldMomentInversion.C">
+      <Filter>quadratureMethods\fieldMomentInversion</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\fieldMomentInversion\fieldMomentInversion.C">
+      <Filter>quadratureMethods\fieldMomentInversion</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\fieldMomentInversion\newFieldMomentInversion.C">
+      <Filter>quadratureMethods\fieldMomentInversion</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\hermiteQuadrature\hermiteQuadrature.C">
+      <Filter>quadratureMethods\hermiteQuadrature</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\mixingModels\FokkerPlanck.C">
+      <Filter>quadratureMethods\mixingModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\mixingModels\IEM.C">
+      <Filter>quadratureMethods\mixingModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\mixingModels\mixingDiffusionModel.C">
+      <Filter>quadratureMethods\mixingModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\mixingModels\mixingKernel.C">
+      <Filter>quadratureMethods\mixingModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\mixingModels\mixingModel.C">
+      <Filter>quadratureMethods\mixingModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\mixingModels\molecularDiffusion.C">
+      <Filter>quadratureMethods\mixingModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\mixingModels\newMixingDiffusionModel.C">
+      <Filter>quadratureMethods\mixingModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\mixingModels\newMixingKernel.C">
+      <Filter>quadratureMethods\mixingModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\mixingModels\newMixingModel.C">
+      <Filter>quadratureMethods\mixingModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\mixingModels\noDiffusion.C">
+      <Filter>quadratureMethods\mixingModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\mixingModels\noMixing.C">
+      <Filter>quadratureMethods\mixingModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\mixingModels\noMixingKernel.C">
+      <Filter>quadratureMethods\mixingModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\mixingModels\turbulentDiffusion.C">
+      <Filter>quadratureMethods\mixingModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\mixingModels\turbulentMixing.C">
+      <Filter>quadratureMethods\mixingModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\momentAdvection\calculatedFvQuadraturePatch.C">
+      <Filter>quadratureMethods\momentAdvection</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\momentAdvection\firstOrderKineticUnivariateAdvection.C">
+      <Filter>quadratureMethods\momentAdvection</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\momentAdvection\firstOrderKineticVelocityAdvection.C">
+      <Filter>quadratureMethods\momentAdvection</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\momentAdvection\fixedTemperatureFvQuadraturePatch.C">
+      <Filter>quadratureMethods\momentAdvection</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\momentAdvection\fvQuadraturePatch.C">
+      <Filter>quadratureMethods\momentAdvection</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\momentAdvection\newFvQuadraturePatch.C">
+      <Filter>quadratureMethods\momentAdvection</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\momentAdvection\newUnivariateMomentAdvection.C">
+      <Filter>quadratureMethods\momentAdvection</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\momentAdvection\newVelocityMomentAdvection.C">
+      <Filter>quadratureMethods\momentAdvection</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\momentAdvection\noFluxFvQuadraturePatch.C">
+      <Filter>quadratureMethods\momentAdvection</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\momentAdvection\noUnivariateAdvection.C">
+      <Filter>quadratureMethods\momentAdvection</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\momentAdvection\noVelocityAdvection.C">
+      <Filter>quadratureMethods\momentAdvection</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\momentAdvection\outflowFvQuadraturePatch.C">
+      <Filter>quadratureMethods\momentAdvection</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\momentAdvection\reflectiveFvQuadraturePatch.C">
+      <Filter>quadratureMethods\momentAdvection</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\momentAdvection\reflectiveMovingWallFvQuadraturePatch.C">
+      <Filter>quadratureMethods\momentAdvection</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\momentAdvection\reflectiveRotatingWallFvQuadraturePatch.C">
+      <Filter>quadratureMethods\momentAdvection</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\momentAdvection\symmetryFvQuadraturePatch.C">
+      <Filter>quadratureMethods\momentAdvection</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\momentAdvection\univariateMomentAdvection.C">
+      <Filter>quadratureMethods\momentAdvection</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\momentAdvection\velocityMomentAdvection.C">
+      <Filter>quadratureMethods\momentAdvection</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\momentAdvection\VikasQuasiSecondOrderVelocityAdvection.C">
+      <Filter>quadratureMethods\momentAdvection</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\momentAdvection\zetaUnivariateAdvection.C">
+      <Filter>quadratureMethods\momentAdvection</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\momentInversion\betaEQMOM.C">
+      <Filter>quadratureMethods\momentInversion</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\momentInversion\CHyQMOMMomentInversion.C">
+      <Filter>quadratureMethods\momentInversion</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\momentInversion\CHyQMOMPlusMomentInversion.C">
+      <Filter>quadratureMethods\momentInversion</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\momentInversion\conditionalMomentInversion.C">
+      <Filter>quadratureMethods\momentInversion</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\momentInversion\extendedMomentInversion.C">
+      <Filter>quadratureMethods\momentInversion</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\momentInversion\gammaEQMOM.C">
+      <Filter>quadratureMethods\momentInversion</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\momentInversion\gaussLobattoMomentInversion.C">
+      <Filter>quadratureMethods\momentInversion</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\momentInversion\gaussMomentInversion.C">
+      <Filter>quadratureMethods\momentInversion</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\momentInversion\gaussRadauMomentInversion.C">
+      <Filter>quadratureMethods\momentInversion</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\momentInversion\hyperbolicMomentInversion.C">
+      <Filter>quadratureMethods\momentInversion</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\momentInversion\lognormalEQMOM.C">
+      <Filter>quadratureMethods\momentInversion</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\momentInversion\monoKineticMomentInversion.C">
+      <Filter>quadratureMethods\momentInversion</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\momentInversion\multivariateMomentInversion.C">
+      <Filter>quadratureMethods\momentInversion</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\momentInversion\newExtendedMomentInversion.C">
+      <Filter>quadratureMethods\momentInversion</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\momentInversion\newMultivariateMomentInversion.C">
+      <Filter>quadratureMethods\momentInversion</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\momentInversion\newUnivariateMomentInversion.C">
+      <Filter>quadratureMethods\momentInversion</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\momentInversion\sizeCHyQMOMMomentInversions.C">
+      <Filter>quadratureMethods\momentInversion</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\momentInversion\TensorProductMomentInversion.C">
+      <Filter>quadratureMethods\momentInversion</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\momentInversion\univariateMomentInversion.C">
+      <Filter>quadratureMethods\momentInversion</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\momentSets\momentSet.C">
+      <Filter>quadratureMethods\momentSets</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\momentSets\multivariateMomentSet.C">
+      <Filter>quadratureMethods\momentSets</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\momentSets\univariateMomentSet.C">
+      <Filter>quadratureMethods\momentSets</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\quadratureNode\surfaceVelocityNode.C">
+      <Filter>quadratureMethods\quadratureNode</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\quadratureNode\volVelocityNode.C">
+      <Filter>quadratureMethods\quadratureNode</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\aggregationKernel.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\AyaziShamlou.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\BGKCollision.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\BoltzmannCollision.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\breakupKernel.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\Brownian.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\coalescenceEfficiencyKernel.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\coalescenceFrequencyKernel.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\coalescenceKernel.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\collisionKernel.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\constantAggregation.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\constantBreakup.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\constantEfficiency.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\constantGrowth.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\daughterDistribution.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\differentialForceAggregation.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\diffusionModel.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\environmentMixingModel.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\equilibriumMomentFunctions.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\erosion.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\esBGKCollision.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\exponentialBreakup.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\fullFragmentation.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\growthModel.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\hydrodynamicAggregation.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\ICoefficientFunctions.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\IxCoefficientFunctions.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\IyCoefficientFunctions.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\IzCoefficientFunctions.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\linearEvaporation.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\LuoFrequency.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\LuoSvendsen.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\Miller.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\mixingPopulationBalance.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\newAggregationKernel.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\newBreakupKernel.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\newCoalescenceEfficiencyKernel.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\newCoalescenceFrequencyKernel.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\newCollisionKernel.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\newDaughterDistribution.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\newDiffusionModel.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\newEnvironmentMixingModel.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\newGrowthModel.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\newNucleationModel.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\newPopulationBalanceModel.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\noCollision.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\nonLinearEvaporation.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\noNucleation.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\noPopulationBalance.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\nucleationModel.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\oneQuarterMassRatio.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\populationBalanceModel.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\powerLawBreakup.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\shearRateFrequency.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\sizeVelocityPopulationBalance.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\sumAggregation.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\symmetricFragmentation.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\turbulentBrownian.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\uniform.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\univariatePopulationBalance.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\velocityPopulationBalance.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\PDFTransportModels\PDFTransportModel.C">
+      <Filter>quadratureMethods\PDFTransportModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\PDFTransportModels\univariatePDFTransportModel.C">
+      <Filter>quadratureMethods\PDFTransportModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\PDFTransportModels\velocityPDFTransportModel.C">
+      <Filter>quadratureMethods\PDFTransportModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\quadratureApproximations\monoKineticQuadratureApproximation.C">
+      <Filter>quadratureMethods\quadratureApproximations</Filter>
+    </ClCompile>
+    <ClCompile Include="Vandermonde\Vandermonde.C">
+      <Filter>Vandermonde</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\IEM2.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\molecularDiffusion2.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\noDiffusion2.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+    <ClCompile Include="quadratureMethods\populationBalanceModels\turbulentDiffusion2.C">
+      <Filter>quadratureMethods\populationBalanceModels</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
